@@ -12,3 +12,16 @@ const createElement = (element = '', className = '', text = '') => {
   newElement.textContent = text;
   return newElement;
 };
+
+// Display score
+const displayScore = async () => {
+	const data = await getData().then((res) => res.result);
+	data.forEach((e) => {
+	  const li = createElement('li', 'list-item');
+	  const nameSpan = createElement('span', 'name', `${e.user}: `);
+	  const scoreSpan = createElement('span', 'score', `${e.score}`);
+	  li.append(nameSpan, scoreSpan);
+	  ul.appendChild(li);
+	});
+	scoreList.appendChild(ul);
+  };
