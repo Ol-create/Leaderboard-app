@@ -12,3 +12,11 @@ const postData = async (data = {}) => {
 	});
 	return response.json();
   };
+
+  //Get request
+const getData = async () => {
+	const response = await fetch(baseUrl);
+	return response.json();
+  };
+
+  export { gameScore, postData, getData };
