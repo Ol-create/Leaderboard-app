@@ -25,3 +25,26 @@ const displayScore = async () => {
 	});
 	scoreList.appendChild(ul);
   };
+
+  // Add a new score
+const addNewScore = (form) => {
+	form.addEventListener('submit', (event) => {
+	  const user = form.elements.user.value;
+	  const score = form.elements.score.value;
+	  gameScore.user = user;
+	  gameScore.score = score;
+	  postData(gameScore);
+	  form.elements.user.value = '';
+	  form.elements.score.value = '';
+	  event.preventDefault();
+	});
+  };
+
+  // Referesh page
+  const referesh = () => {
+	refreshBtn.addEventListener('click', () => {
+	  window.location.reload();
+	});
+  };
+
+  export { addNewScore, displayScore, referesh };
