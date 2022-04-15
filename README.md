@@ -1,6 +1,13 @@
-### Webpack getting started
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-- In this exercise you will build a simple yet powerful webpack boilerplate, 
-- which you can later use as a starting point in your projects. 
-- You will be working with the webpack official guides, 
-- which you know already from the previous lesson.
+# Leaderboard
+
+> In this project, I intended to use webpack, API, and Javascirpt Module in this Leaderboard project.
+
+## Built With
+
+- HTML5
+- JavaScript
+- SCSS
+- Webpack
+- API
