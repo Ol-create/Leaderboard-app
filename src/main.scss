@@ -50,6 +50,8 @@ body {
 .title {
   margin: 0 1rem 2rem 0;
   font-size: 3rem;
+
+  @include textGradient();
 }
 
 .btn {
