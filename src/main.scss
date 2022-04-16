@@ -29,6 +29,12 @@
   box-sizing: inherit;
 }
 
+@mixin textGradient {
+  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
