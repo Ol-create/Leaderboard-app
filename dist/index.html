@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Getting Started</title>
-    
-  <body>
-    <script src="main.js"></script>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
+<script defer src="main.bundle.js"></script></head>
+
+<body>
+  <div class="container">
+    <h1 class="main-title">Leaderboard</h1>
+
+    <div class="scores">
+
+      <!-- Recent scores -->
+      <div class="recent-scores">
+        <div class="recent-scores__head">
+          <h2 class="title">Recent Scores</h2>
+          <button class="btn refresh-btn">Refresh</button>
+        </div>
+        <div class="recent-scores__list"></div>
+      </div>
+
+      <!-- New Scores -->
+      <div class="new-scores">
+        <h2 class="title">Add your score</h2>
+        <form class="form" method="post">
+          <div class="name">
+            <label for="user"></label>
+            <input type="text" name="user" id="user" placeholder="Your name" required />
+          </div>
+          <div class="score">
+            <label for="score"></label>
+            <input type="number" name="score" id="score" placeholder="Your score" required />
+          </div>
+          <button type="submit" class="btn submit-btn"><span>Submit</span></button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</body>
+
 </html>
