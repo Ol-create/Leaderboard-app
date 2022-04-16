@@ -4,7 +4,7 @@
 
 > In this project, I intended to use webpack, API, and Javascirpt Module in this Leaderboard project.
 
-[Leaderboard](https://i.imgur.com/o1uuAqa.jpg)
+![Leaderboard](https://i.imgur.com/o1uuAqa.jpg)
 
 ## Built With
 
@@ -13,7 +13,6 @@
 - SCSS
 - Webpack
 - API
-
 ## Media screen💻📱🖥️
 
 - Responsive design below and above 768px
