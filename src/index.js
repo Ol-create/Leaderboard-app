@@ -4,10 +4,10 @@ import { addNewScore, displayScore, referesh } from './moudles/scores';
 
 const form = document.querySelector('.form');
 
-//Add score
+// Add score
 addNewScore(form);
 
-//Display score
+// Display score
 displayScore();
 
 // Refresh Page
