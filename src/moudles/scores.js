@@ -16,7 +16,9 @@ const createElement = (element = '', className = '', text = '') => {
 // Display score
 const displayScore = async () => {
   const data = await getData().then((res) => res.result);
-  data.forEach((e) => {
+  const sortScore = data.sort((a, b) => b.score - a.score)
+  
+  sortScore.forEach((e) => {
     const li = createElement('li', 'list-item');
     const nameSpan = createElement('span', 'name', `${e.user}: `);
     const scoreSpan = createElement('span', 'score', `${e.score}`);
@@ -40,11 +42,10 @@ const addNewScore = (form) => {
   });
 };
 
-// Referesh page
-const referesh = () => {
-  refreshBtn.addEventListener('click', () => {
-    window.location.reload();
-  });
-};
+  const referesh = () => {
+    refreshBtn.addEventListener("click", () => {
+      window.location.reload();
+    });
+  };
 
 export { addNewScore, displayScore, referesh };

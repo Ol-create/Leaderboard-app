@@ -1,9 +1,10 @@
-const gameId = 'Zl4d7IVkemOTTVg2fUdzzoluyemipaul'; //
+const gameId = 'Zl4d7IVkemOTTVg2fUdzzoluyemipaul'; 
 const baseUrl = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores`;
 
+// Initialize Game Score Object
 const gameScore = { user: '', score: 0 };
 
-// Post request
+// Post request 
 const postData = async (data = {}) => {
   const response = await fetch(baseUrl, {
     method: 'POST',
@@ -13,7 +14,7 @@ const postData = async (data = {}) => {
   return response.json();
 };
 
-// Get request
+// Get requested data
 const getData = async () => {
   const response = await fetch(baseUrl);
   return response.json();
