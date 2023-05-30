@@ -56,7 +56,7 @@ Install all project dependencies by running the command below
    npm i 
 ```
 ### Run Server
-`Run npm start` on your local path to start the web server.
+`npm start` on your local path to start the web server.
 Now you can go and play with it as you wish :smile:
 
 ## Author
