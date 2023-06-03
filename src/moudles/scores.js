@@ -30,6 +30,7 @@ const displayScore = async () => {
 
 // Add a new score
 const addNewScore = (form) => {
+   event.preventDefault();
   form.addEventListener('submit', (event) => {
     const user = form.elements.user.value;
     const score = form.elements.score.value;
@@ -38,7 +39,6 @@ const addNewScore = (form) => {
     postData(gameScore);
     form.elements.user.value = '';
     form.elements.score.value = '';
-    event.preventDefault();
   });
 };
 
