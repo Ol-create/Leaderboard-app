@@ -22,8 +22,8 @@ In this project, I developed an application called "Leaderboard" that showcases 
 
 ## Website Live Version
 
-[Live Demo Link](https://leadership-gcxo.onrender.com/)
-
+<!-- [Live Demo Link](https://leadership-gcxo.onrender.com/) -->
+[Live Demo Link](https://bit.ly/3EoNDav)
 
 ## Getting Started
 
