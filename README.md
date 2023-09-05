@@ -5,7 +5,10 @@ In this project, I developed an application called "Leaderboard" that showcases 
 
 ## Responsive Website on Mobile & Desktop view
 
-![all-devices-black](https://github.com/Ol-create/Leaderboard-app/assets/65777402/d571b1d2-8f6c-4568-bf1c-12289de40596)
+<!-- ![all-devices-black](https://github.com/Ol-create/Leaderboard-app/assets/65777402/d571b1d2-8f6c-4568-bf1c-12289de40596) -->
+![New Leadership](https://github.com/Ol-create/Leaderboard-app/assets/65777402/4b01ef13-767f-4b73-815b-a388589199e0)
+
+
 
 ## Built With
 
